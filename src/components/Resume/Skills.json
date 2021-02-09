@@ -1,0 +1,105 @@
+{
+    "programmingLanguages": [
+        {
+            "lang": "ReactJS",
+            "proficieny": "95"
+        },
+
+        {
+            "lang": "Latex",
+            "proficieny":"95"
+        },
+
+        {
+            "lang": "Python",
+            "proficieny":"80"
+        },
+
+        {
+            "lang": "HTML",
+            "proficieny":"85"
+        },
+
+        {
+            "lang": "CSS",
+            "proficieny":"80"
+        },
+
+        {
+            "lang": "JavaScript",
+            "proficieny":"85"
+        },
+
+        {
+            "lang": "C/C++",
+            "proficieny":"75"
+        },
+
+        {
+            "lang": "MATLAB",
+            "proficieny":"65"
+        },
+
+        {
+            "lang": "Maple",
+            "proficieny":"75"
+        },
+
+        {
+            "lang": "SQL",
+            "proficieny":"70"
+        }
+    ],
+
+    "softwareTools":[
+        {
+            "name": "Git",
+            "proficieny":"80"
+        },
+
+        {
+            "name": "Vim",
+            "proficieny":"70"
+        },
+
+        {
+            "name": "GDB",
+            "proficieny":"65"
+        },
+
+        {
+            "name": "Bash",
+            "proficieny": "75"
+        },
+
+        {
+            "name": "Windows",
+            "proficieny":"95"
+        },
+
+        {
+            "name": "Linux",
+            "proficieny":"85"
+        },
+
+        {
+            "name": "Microsoft Word",
+            "proficieny":"95"
+        },
+
+        {
+            "name": "Microsoft Excel",
+            "proficieny":"90"
+        },
+
+        {
+            "name": "Microsoft Powerpoint",
+            "proficieny":"80"
+        },
+
+        {
+            "name": "Photoshop",
+            "proficieny":"75"
+        }
+    ]
+}

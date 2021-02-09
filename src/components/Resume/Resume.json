@@ -1,0 +1,68 @@
+{
+    "education": [
+        {
+            "degree": "Bachelor of Science \n Mathematics and Computing Science Joint Major", 
+            "duration": "September 2014 - December 2020",
+            "institution": "Simon Fraser University"
+        }
+    ],
+    
+    "workExperience": [
+        {
+            "position": "Order Entry Clerk", 
+            "duration": "March 2015 - December 2017",
+            "company": "Freshpoint Vancouver",
+            "description": [
+                "Processed delivery invoices from salesman and entered them manually into an IBM System i (AS/400).",
+                "Verified order accuracy by ensuring changes on order forms are clearly communicated between co-workers and updated onto the system in a timely manner.",
+                "Trained new employees when supervisor is unavailable."
+            ]
+        },
+
+        {
+            "position": "Service and Technician Assistant", 
+            "duration": "December 2013 - January 2014",
+            "company": "IT Electronics, Vancouver, BC",
+            "description": [
+                "Assisted with in-shop repairs various home appliances (ie. TVs, microwaves, audio systems).",
+                "Responded to in-home requests for electronic appliance installations in conjunction with the Technician-in-Charge.",
+                "Communicated with the receptionist to ensure parts for various repairs are stocked and available."
+            ]
+        },
+
+        {
+            "position": "Sales Representative & Technical Support", 
+            "duration": "March 2013 - April 2014",
+            "company": "Lee's Electronics, Vancouver, BC",
+            "description": [
+                "Worked with customers to find the corresponding components for their projects.",
+                "Provided customers with advice on their projects and responded to questions they may have regarding their schematics.",
+                "Maintained an adequate supply of various components on store shelves."
+            ]
+        }
+    ],
+
+    "volunteering":[
+        {
+            "position": "Group Commissioner", 
+            "duration": "September 2019 - Present",
+            "location": "Scouts Canada - 69th Knights of Kensington Scout Group",
+            "description": [
+                "Leading and assisting youth of varying ages in Scouting activities such as camps and outings.",
+                "Providing leadership to develop and ensure safe, high-quality programs in alignment with the Scouting Movement.",
+                "Establish and maintain positive relationships with parents, leaders, Partner/Sponsor, and the community at large." 
+            ]
+        },
+
+        {
+            "position": "Teaching Assistant", 
+            "duration": "September 2012 - June 2014",
+            "location": "Eric Hamber Secondary School - Department of Bands",
+            "description": [
+                "Coordinated with Nicholas Francis (Director of Bands) to complete various tasks such as completing paperwork and organizing sheet music to complete a full Music Score.",
+                "Ensured instruments in the school inventory are put away properly and made minor repairs if anything was damaged.", 
+                "Conducted workshops with the Clarinet Section to work through sections of a music piece, as well as help them improve their playing skills." 
+            ]
+        }
+    ]
+}
