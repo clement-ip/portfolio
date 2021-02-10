@@ -6,7 +6,7 @@ function Resume(){
 
     function NewlineTextTitle(props) {
         const text = props.text;
-        const newText = text.split('\n').map(str => <h4>{str}</h4>);
+        const newText = text.split('\n').map(str => <h4 key={str}>{str}</h4>);
         return newText;
     }
 
@@ -23,32 +23,32 @@ function Resume(){
                     <div className="col-lg-6" data-aos="fade-up">
                         <h3 className="resume-title">Education</h3>
                         {
-                            ResumeData.education.map((Education, index) =>{
+                            ResumeData.education.map((Education) =>{
                                 return(
-                                    <div className="resume-item" key={index}>
+                                    <div className="resume-item" key={Education.degree}>
                                         <NewlineTextTitle text={Education.degree}/>
-                                        <h5>{Education.duration}</h5>
                                         <h6>
                                             <b>
                                                 <em>{Education.institution}</em>
                                             </b>
-                                        </h6>    
+                                        </h6>
+                                        <h5>{Education.duration}</h5>
                                     </div>
                                 );
                             })
                         }
                         <h3 className="resume-title">Volunteering &amp; Leadership Positions</h3>
                         {
-                            ResumeData.volunteering.map((Volunteering, index) =>{
+                            ResumeData.volunteering.map((Volunteering) =>{
                                 return(
-                                    <div className="resume-item" key={index}>
+                                    <div className="resume-item" key={Volunteering.position}>
                                         <h4>{Volunteering.position}</h4>
-                                        <h5>{Volunteering.duration}</h5>
                                         <h6>
                                             <b>
                                                 <em>{Volunteering.location}</em>
                                             </b>
                                         </h6>
+                                        <h5>{Volunteering.duration}</h5>
                                         <ul>
                                             {
                                                 Volunteering.description.map((item, index)=> {
@@ -67,16 +67,16 @@ function Resume(){
                     <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                         <h3 className="resume-title">Work Experience</h3>
                         {
-                            ResumeData.workExperience.map((WorkExperience, index) =>{
+                            ResumeData.workExperience.map((WorkExperience) =>{
                                 return(
-                                    <div className="resume-item" key={index}>
+                                    <div className="resume-item" key={WorkExperience.position}>
                                         <h4>{WorkExperience.position}</h4>
-                                        <h5>{WorkExperience.duration}</h5>
                                         <h6>
                                             <b>
                                                 <em>{WorkExperience.company}</em>
                                             </b>
                                         </h6>
+                                        <h5>{WorkExperience.duration}</h5>
                                         <ul>
                                             {
                                                 WorkExperience.description.map((item, index)=> {

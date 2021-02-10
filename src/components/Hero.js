@@ -7,10 +7,10 @@ function Hero(){
             <div className="hero-container" data-aos="fade-in">
                 <h1>Clement Ip</h1>
                 <div className = "typed">
-                    <p>
-                        A
-                    </p>
-                    <p>
+                    {/* <p>
+                        I'm a
+                    </p> */}
+                    <div className="typewriter">
                         <Typewriter
                                 options={{
                                     strings: ['Software Developer', 
@@ -24,11 +24,10 @@ function Hero(){
                                     changeDeleteSpeed: 2000
                                 }}
                         />    
-                    </p>
+                    </div>
                 </div>
                 {/* <p>A <span className="typed" data-typed-items="Software Developer, Mathematician, Photographer, Leader, Photographer"></span></p> */}
             </div>
-            {/* <a href="#about"><i className="icofont-simple-down"></i></a> */}
         </section>
     );
 }

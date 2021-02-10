@@ -8,7 +8,7 @@ function Projects(){
 
                 <div className="section-title">
                 <h2>Projects</h2>
-                {/* <p>Check out what I've worked on below!</p> */}
+                <p>Here's a snapshot of what I have worked on, or in the middle of working on!</p>
                 </div>
 
                 {/* <div className="row" data-aos="fade-up">
@@ -24,9 +24,9 @@ function Projects(){
 
                 <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
                     {
-                        ProjectData.items.map((Project, index) => {
+                        ProjectData.items.map((Project) => {
                             return(
-                                <div className="col-lg-4 col-md-6 portfolio-item" key={index}>
+                                <div className="col-lg-4 col-md-6 portfolio-item" key={Project.name}>
                                     <div className="portfolio-wrap">
                                         <img src={Project.image} className="img-fluid" alt={Project.name}/>
                                         <div className = "portfolio-description">

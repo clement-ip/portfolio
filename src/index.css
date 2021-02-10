@@ -244,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("./img/hero-bg.jpg") top center;
   /* background-size: cover; */
-  background-size: contain;
+  background-size: 100% 100%;
 }
 
 #hero:before {
@@ -279,12 +279,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#hero p {
+#hero p{
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
   padding-right: 5.5px;
+}
+
+#hero .typewriter{
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 #hero p span {
@@ -295,6 +304,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container .typed p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+
+#hero .hero-container .typed .typewriter span {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
@@ -367,6 +383,10 @@ section {
   font-size: 26px;
   color: #173b6c;
 }
+
+/* .about .content p {
+  line-height: 1.6;
+} */
 
 .about .content ul {
   list-style: none;
@@ -503,7 +523,7 @@ section {
 }
 
 .resume .resume-item {
-  padding: 0 0 0.01px 20px;
+  padding: 0 0 5px 20px;
   margin-top: -2px;
   border-left: 2px solid #1f5297;
   position: relative;
@@ -876,9 +896,9 @@ section {
   color: #173b6c;
 }
 
-.contact .info .email p {
+/* .contact .info .email p {
   padding-top: 5px;
-}
+} */
 
 .contact .info .social-links {
   padding-left: 60px;
@@ -904,23 +924,27 @@ section {
   color: #fff;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i, .contact .info .linkedin:hover i, .contact .info .github:hover i {
   background: #149ddd;
   color: #fff;
 }
 
-.contact .php-email-form {
+.contact .email-form {
   width: 100%;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-.contact .php-email-form .form-group {
+.contact .email-form .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .validate {
+.contact .email-form label{
+  font-weight: bold;
+}
+
+/* .contact .email-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
@@ -928,7 +952,7 @@ section {
   font-size: 13px;
 }
 
-.contact .php-email-form .error-message {
+.contact .email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -937,11 +961,11 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .email-form .error-message br + br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.contact .email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -950,14 +974,14 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contact .email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.contact .email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -968,23 +992,23 @@ section {
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
-}
+} */
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .email-form input, .contact .email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input {
+.contact .email-form input {
   height: 44px;
 }
 
-.contact .php-email-form textarea {
+.contact .email-form textarea {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .email-form button[type="submit"] {
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
@@ -993,11 +1017,11 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .email-form button[type="submit"]:hover {
   background: #37b3ed;
 }
 
-@-webkit-keyframes animate-loading {
+/* @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
   }
@@ -1013,12 +1037,12 @@ section {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
-.breadcrumbs {
+/* .breadcrumbs {
   padding: 20px 0;
   background: #f9f9f9;
 }
@@ -1058,7 +1082,7 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio Details
