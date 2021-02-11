@@ -30,7 +30,7 @@ function About(){
                             Outside of my main fields of study, I have over 10 years of leadership and teamwork experience in the non-profit sector. Additionally, I have a love for the outdoors and have gone to many expedition and camps to see what nature can offer us.
                         </p>
                         <p>
-                            I also really enjoy photography. Whether it's taking pictures of nice scenery, to doing photoshoots with people and events, to simple abstract photo taking, I like them all. While currently it is only a hobby of mine, maybe sometime down the road it might become something of a service for everyone so stay tuned!</p>
+                            If you've noticed my picture on the left, you will know that I also really enjoy photography. Whether it's taking pictures of nice scenery, to doing photoshoots with people and events, to simple abstract photo taking, I like them all! While currently it is only a hobby of mine, maybe sometime down the road it might become something of a service for everyone so stay tuned!</p>
                         <p>
                             Let's have a chat if we share any interests! Whether it's through a meal, cup of coffee, or just a simple get together and hang, I really cherish and enjoy in-person <b>dialogue and conversations</b> between one another. My contact information can be found in the <b>"Contact"</b> section of this website!
                         </p>

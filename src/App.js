@@ -4,14 +4,14 @@ import React from 'react';
 
 import About from './components/About';
 import BackToTop from './components/BackToTop'
-import Contact from './components/Contact';
+import Contact from './components/Contact/Contact';
 // import Facts from './components/Facts';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Projects from './components/Projects/Projects';
 import Resume from './components/Resume/Resume';
-import Services from './components/Services';
+// import Services from './components/Services';
 // import Skills from './components/Resume/Skills';
 // import Testimonials from './components/Testimonials';
 
@@ -34,7 +34,7 @@ function App() {
         <Resume/>
         {/* <Skills/> */}
         <Projects/>
-        <Services/>
+        {/* <Services/> */}
         {/* <Testimonials/> */}
         <Contact/>
       </div>

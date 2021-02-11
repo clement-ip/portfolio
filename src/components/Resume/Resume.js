@@ -1,4 +1,5 @@
 import React from "react";
+import Icofont from 'react-icofont';
 import ResumeData from "./Resume.json";
 import Skills from "./Skills";
 
@@ -15,8 +16,8 @@ function Resume(){
             <div className="container">
 
                 <div className="section-title">
-                    <h2>Resume</h2>
-                    <p>A button should go here to download resume.</p>
+                    <h2>Resumé</h2>
+                    <a href="#" class="btn btn-info" role="button"><Icofont icon="download"/> Download Resumé</a>
                 </div>
 
                 <div className="row">

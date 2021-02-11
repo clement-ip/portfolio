@@ -54,9 +54,9 @@ function Header(){
                                 <Link activeClass="active" to="projects" spy={true} smooth={true} duration={1000}>
                                     <i className="bx bx-book-content"/><span>Projects</span>
                                 </Link>
-                                <Link activeClass="active" to="services" spy={true} smooth={true} duration={1000}>
+                                {/* <Link activeClass="active" to="services" spy={true} smooth={true} duration={1000}>
                                     <i className="bx bx-server"/><span>Services</span>
-                                </Link>
+                                </Link> */}
                                 <Link activeClass="active" to="contact" spy={true} smooth={true} duration={1000}>
                                     <i className="bx bx-envelope"/><span>Contact</span>
                                 </Link>

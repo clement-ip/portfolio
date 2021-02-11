@@ -9,7 +9,7 @@ function Footer(){
         <footer id="footer">
             <div className="container">
                 <div className="copyright">
-                    <strong><span>&copy; Copyright {getCurrentYear()} Clement Ip</span></strong>
+                    <strong><span>&copy; {getCurrentYear()} Clement Ip</span></strong>
                 </div>
             </div>
         </footer>

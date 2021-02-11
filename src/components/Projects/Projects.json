@@ -1,75 +1,19 @@
 {
     "items": [
         {
-            "name": "Event 1", 
-            "description": "Project Description 1.",
-            "image": "assets/img/portfolio/portfolio-1.jpg",
+            "name": "Portfolio Website", 
+            "description": "This very website you are viewing!\n(React, Node.js)",
+            "image": "assets/img/projects/portfolio.png",
             "github": "#",
             "demo": "#"
         },
         
         {
-            "name": "Event 2", 
-            "description": "Project Description 2.",
-            "image": "assets/img/portfolio/portfolio-2.jpg",
-            "github": "#",
-            "demo": "#"
-        },
-
-        {
-            "name": "Event 3", 
-            "description": "Project Description 3.",
-            "image": "assets/img/portfolio/portfolio-3.jpg",
-            "github": "#",
-            "demo": "#"
-        },
-
-        {
-            "name": "Event 4", 
-            "description": "Project Description 4.",
-            "image": "assets/img/portfolio/portfolio-4.jpg",
-            "github": "#",
-            "demo": "#"
-        },
-
-        {
-            "name": "Event 5", 
-            "description": "Project Description 5.",
-            "image": "assets/img/portfolio/portfolio-5.jpg",
-            "github": "#",
-            "demo": "#"
-        },
-
-        {
-            "name": "Event 6", 
-            "description": "Project Description 6.",
-            "image": "assets/img/portfolio/portfolio-6.jpg",
-            "github": "#",
-            "demo": "#"
-        },
-
-        {
-            "name": "Event 7", 
-            "description": "Project Description 7.",
-            "image": "assets/img/portfolio/portfolio-7.jpg",
-            "github": "#",
-            "demo": "#"
-        },
-
-        {
-            "name": "Event 8", 
-            "description": "Project Description 8.",
-            "image": "assets/img/portfolio/portfolio-8.jpg",
-            "github": "#",
-            "demo": "#"
-        },
-
-        {
-            "name": "Event 9", 
-            "description": "Project Description 9.",
-            "image": "assets/img/portfolio/portfolio-9.jpg",
-            "github": "#",
-            "demo": "#"
+            "name": "Data Science Project", 
+            "description": "Investigating Airport Data in Canadian Airports in the year preceding (and during) the COVID-19 Pandemic.\n(Python)",
+            "image": "assets/img/projects/canadaAirports.png",
+            "github": "https://github.com/clement-ip/covid-airport-travel",
+            "demo": "https://drive.google.com/file/d/1rCO0keKW_tGBhPDdJmE-Tg90WxzOm-yV/view?usp=sharing"
         }
     ]
 }
