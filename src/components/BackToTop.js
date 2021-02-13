@@ -3,7 +3,6 @@ import { animateScroll as scroll } from 'react-scroll';
 
 
 function ScrollToTop(){
-
   const [showScroll, setShowScroll] = useState(false)
 
   useEffect(()=>{
@@ -24,7 +23,6 @@ function ScrollToTop(){
   function scrollToTop() {
     scroll.scrollToTop();
   }
-
 
   return (
         <div className="back-to-top" onClick={scrollToTop} style={{height: 40, display: showScroll ? 'flex' : 'none'}}>

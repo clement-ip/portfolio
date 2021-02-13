@@ -13,12 +13,12 @@ function About(){
                 
                 <div className="row">
                     <div className="col-lg-4" data-aos="fade-right">
-                        <img src="./assets/img/profile-img.jpg" className="img-fluid" alt=""/>
+                        <img src="./assets/img/aboutWCT.jpg" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                         <p>
                             My name is Clement, and I'm based out of Vancouver, BC, Canada. 
-                            I recently graduated from Simon Fraser University with a Bachelor's of Scieence in <b>Mathematics and Computing Science</b>.
+                            I recently graduated from Simon Fraser University with a Bachelor's of Science in <b>Mathematics and Computing Science</b>.
                         </p>
                         <p> 
                             Though my studies, I developed a passion in <b>Data Science, Software Engineering/Development, and Information Technology</b>. As such, I am always on the lookout for exciting career opportunities in these particular fields of interest.
@@ -27,12 +27,12 @@ function About(){
                             I also have a huge passion for <b>Web Development and Computation Mathematics</b> (hence my degree), but my interests also include fields such as <b>Hardware Design and Cybersecurity</b>.
                         </p>
                         <p>
-                            Outside of my main fields of study, I have over 10 years of leadership and teamwork experience in the non-profit sector. Additionally, I have a love for the outdoors and have gone to many expedition and camps to see what nature can offer us.
+                            Outside of my main fields of study, I have over 10 years of leadership and teamwork experience in the non-profit sector. Additionally, if you've noticed my picture on the left, you will know that I have a love for the outdoors and have gone to many expedition and camps to see what nature can offer us! (Take a guess at where I went to!)
                         </p>
                         <p>
-                            If you've noticed my picture on the left, you will know that I also really enjoy photography. Whether it's taking pictures of nice scenery, to doing photoshoots with people and events, to simple abstract photo taking, I like them all! While currently it is only a hobby of mine, maybe sometime down the road it might become something of a service for everyone so stay tuned!</p>
+                            I also really enjoy photography. Whether it's taking pictures of nice views, to doing photoshoots with people and/or events, to simple abstract photo taking, I like them all! While currently it is only a hobby of mine, maybe sometime down the road it might become something of a service for everyone so stay tuned!</p>
                         <p>
-                            Let's have a chat if we share any interests! Whether it's through a meal, cup of coffee, or just a simple get together and hang, I really cherish and enjoy in-person <b>dialogue and conversations</b> between one another. My contact information can be found in the <b>"Contact"</b> section of this website!
+                            Let's have a chat if we share any interests! Whether it's through a meal, cup of coffee, or just a simple get together and hang, I really cherish and enjoy <b>dialogue and conversations</b> between one another, both online and in-person (when it's safe to do so given the current circumstances).
                         </p>
                         {/* <h3>UI/UX Designer &amp; Web Developer.</h3>
                         <p className="font-italic">

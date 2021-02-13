@@ -1,8 +1,9 @@
-import React, { useState, useEffect, useLayoutEffect } from 'react';
+import React from 'react';
 import ProjectData from "./Projects.json";
 
 function Projects(){
-    function NewlineTextDescription(props) {
+
+    function NewLineTextDescription(props) {
         const text = props.text;
         const newText = text.split('\n').map(str => <p key={str}>{str}</p>);
         return newText;
@@ -37,7 +38,7 @@ function Projects(){
                                         <img src={Project.image} className="img-fluid" alt={Project.name}/>
                                         <div className = "portfolio-description">
                                             <h6><b>{Project.name}</b></h6>
-                                            <NewlineTextDescription text={Project.description}/>
+                                            <NewLineTextDescription text={Project.description}/>
                                         </div>
                                         <div className="portfolio-links">
                                             <a href={Project.github} target="_blank" rel="noopener noreferrer"><i className="bx bxl-github"/></a>
@@ -54,7 +55,7 @@ function Projects(){
                             <img src="assets/img/projects/comingsoon.png" className="img-fluid" alt="Coming Soon"/>
                             <div className = "portfolio-description">
                                 <h6><b>Coming Soon!</b></h6>
-                                <NewlineTextDescription text="Another exciting new project!"/>
+                                <NewLineTextDescription text="Another exciting new project!"/>
                             </div>
                         </div>
                     </div>

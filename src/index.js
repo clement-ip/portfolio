@@ -12,6 +12,8 @@ import 'bootstrap/dist/js/bootstrap';
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
+require('dotenv').config()
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

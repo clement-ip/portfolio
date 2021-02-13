@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 // import { animateScroll as scroll } from 'react-scroll';
 // import { fadeIn, fadeOut } from 'react-animations';
 
@@ -18,30 +18,41 @@ import Resume from './components/Resume/Resume';
 // import './App.css';
 
 function App() {
+  const [menuActive, setMenuState] = useState(false);
 
-  // function scrollToTop() {
-  //   scroll.scrollToTop();
-  // }
+  const toggle = () => {
+    setMenuState(!menuActive);
+  };
+
+  const checkToggle = () => {
+    if(menuActive === true){
+      toggle();
+    }
+    return null;
+  }
 
   return (
     <div>
-      <Header/>
-      <Hero/>
-      <div id="main">
-        <About/>
-        {/* <Facts/> */}
-        {/* <Skills/> */}
-        <Resume/>
-        {/* <Skills/> */}
-        <Projects/>
-        {/* <Services/> */}
-        {/* <Testimonials/> */}
-        <Contact/>
+      <button type="button" onClick={toggle} className="mobile-nav-toggle d-xl-none">
+          <i className={`${menuActive ? "icofont-close" : "icofont-navigation-menu"}`}/>
+      </button>
+      <div onClick={checkToggle} className={`${menuActive ? "mobile-nav-active" : ""}`}>
+        <Header toggle={checkToggle}/>
+        <Hero/>
+        <div id="main">
+          <About/>
+          {/* <Facts/> */}
+          {/* <Skills/> */}
+          <Resume/>
+          {/* <Skills/> */}
+          <Projects/>
+          {/* <Services/> */}
+          {/* <Testimonials/> */}
+          <Contact/>
+        </div>
+        <Footer/>
+        <BackToTop/>
       </div>
-      <Footer/>
-      {/* <a href="#hero" className="back-to-top" ><i className="icofont-simple-up"></i></a> */}
-      {/* <div className="back-to-top" onClick={scrollToTop}><i className="icofont-simple-up"></i></div> */}
-      <BackToTop/>
     </div>
   );
 }

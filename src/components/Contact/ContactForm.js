@@ -1,35 +1,18 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
 import { useForm as useFormspree } from "@formspree/react";
-// import { register } from 'react-scroll/modules/mixins/scroller';
 
 function ContactForm(){
-    const [serverState, sendToFormspree] = useFormspree('xzbkwlpa');
+    const [serverState, sendToFormspree] = useFormspree(process.env.REACT_APP_FORMSPREE_URL);
     const { register, handleSubmit, errors, reset } = useForm();
-
-    const handleClick = e => {
-        Result(e);      
-    };
-    
-    function Result(props){
-        if (serverState.succeeded) {
-            console.log('success!');
-            reset();
-            return(
-                <div className="mb-0 pt-2">
-                    <div className="sent-message">Your message has been sent. Thank you! {props.a}</div>
-                </div>
-            );
-        }
-        else{
-            // console.log('failed!');
-            // return(
-            //     <div className="mb-0 pt-2">
-            //         <div className="error-message">Form submission failed!{props.h}</div>
-            //     </div>
-            // );
-            return null;
-        }
+ 
+    if (serverState.succeeded) {
+        console.log('success!');
+        return(
+            <div className="email-form">
+                <div className="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+        );
     }
 
     return(
@@ -97,10 +80,11 @@ function ContactForm(){
                 {errors._subject && <div className="validate">This field is required.</div> }
             </div>
             <div className="text-center">
-                <button onClick={handleClick} type="submit">Send Message</button>
+                {/* <button onClick={handleClick} type="submit">Send Message</button> */}
+                <button type="submit">Send Message</button>
             </div>
-            <Result/>
         </form>
+        
     );
 }
 

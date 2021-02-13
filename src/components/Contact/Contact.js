@@ -13,26 +13,35 @@ function Contact(){
                 </div>
 
                 <div className="row" data-aos="fade-in">
-                    <div className="col-lg-5 d-flex align-items-stretch">
+                    <div className="col-sm pb-5 d-flex justify-content-between">
                         <div className="info">
                             <div className="email">
-                                <a href="mailto:clement.ip96@gmail.com" className="email" target="_blank" rel="noopener noreferrer">
+                                {/* <a href="mailto:clement.ip96@gmail.com" className="email" target="_blank" rel="noopener noreferrer"> */}
+                                <a href={process.env.REACT_APP_EMAIL_URL} className="email" target="_blank" rel="noopener noreferrer">
                                     <Icofont icon="envelope"/>
                                 </a>
                                 <h4>Email:</h4>
                                 <p>clement.ip96[at]gmail.com</p>
                             </div>
-
+                        </div>
+                    </div>
+                    <div className="col-sm pb-5 d-flex justify-content-between">
+                        <div className="info">                   
                             <div className="linkedin">
-                                <a href="https://www.linkedin.com/in/clement-kc-ip/" className="linkedin" target="_blank" rel="noopener noreferrer">
+                                {/* <a href="https://www.linkedin.com/in/clement-kc-ip" className="linkedin" target="_blank" rel="noopener noreferrer"> */}
+                                <a href={process.env.REACT_APP_LINKEDIN_URL} className="linkedin" target="_blank" rel="noopener noreferrer">
                                     <Icofont icon="linkedin"/>
                                 </a>
-                                <h4>LinkedIn (Sign-In Required):</h4>
-                                <p>linkedin.com/in/clement-kc-ip/</p>
+                                <h4>LinkedIn<br/>(Sign-In Required):</h4>
+                                <p>linkedin.com/in/clement-kc-ip</p>
                             </div>
-
+                        </div>
+                    </div>
+                    <div className="col-sm pb-5 d-flex justify-content-between">
+                        <div className="info">
                             <div className="github">
-                                <a href="https://github.com/clement-ip" className="github" target="_blank" rel="noopener noreferrer">
+                                {/* <a href="https://github.com/clement-ip" className="github" target="_blank" rel="noopener noreferrer"> */}
+                                <a href={process.env.REACT_APP_GITHUB_URL} className="github" target="_blank" rel="noopener noreferrer">
                                     <i className="bx bxl-github"/>
                                 </a>
                                 <h4>GitHub:</h4>
@@ -40,8 +49,10 @@ function Contact(){
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                <div className="row" data-aos="fade-in">
+                    <div className="col-sm">
                         <ContactForm/>
                     </div>
                 </div>

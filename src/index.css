@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
   /* display: flex;
   align-items: center; */
   color: #a8a9b4;
-  cursor: pointer;
+  /* cursor: pointer; */
   /* padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -190,7 +190,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 } */
 
-.nav-menu span:hover, .nav-menu .active > span, .nav-menu .active:hover > span {
+.nav-menu li:hover{
+  cursor: pointer;
+}
+
+.nav-menu li:hover span, .nav-menu .active > span, .nav-menu li:hover > span {
   text-decoration: none;
   color: #fff;
 }
@@ -199,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #149ddd;
 } */
 
-.nav-menu a:hover i, .nav-menu .active > i, .nav-menu .active:hover > i {
+.nav-menu li:hover i, .nav-menu .active > i, .nav-menu .active:hover > i {
   color: #149ddd;
 }
 
@@ -339,7 +343,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 80px 0;
   overflow: hidden;
 }
 
@@ -636,7 +640,7 @@ section {
   opacity: 1;
   top: 15px;
   left: 15px;
-  right: 0;
+  right: 15px;
   bottom: 0;
   z-index: 2;
   position: absolute;

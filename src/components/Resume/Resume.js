@@ -17,7 +17,7 @@ function Resume(){
 
                 <div className="section-title">
                     <h2>Resumé</h2>
-                    <a href="#" class="btn btn-info" role="button"><Icofont icon="download"/> Download Resumé</a>
+                    <a href="#" className="btn btn-info" role="button"><Icofont icon="download"/> Download Resumé</a>
                 </div>
 
                 <div className="row">
