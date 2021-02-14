@@ -17,7 +17,9 @@ function Resume(){
 
                 <div className="section-title">
                     <h2>Resumé</h2>
-                    <a href="#" className="btn btn-info" role="button"><Icofont icon="download"/> Download Resumé</a>
+                    <a href={process.env.REACT_APP_RESUME_URL} className="btn btn-info" role="button" target="_blank" rel="noopener noreferrer">
+                        <Icofont icon="download"/> Download Resumé
+                    </a>
                 </div>
 
                 <div className="row">

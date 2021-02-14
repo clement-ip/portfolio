@@ -4,7 +4,7 @@ import { useForm as useFormspree } from "@formspree/react";
 
 function ContactForm(){
     const [serverState, sendToFormspree] = useFormspree(process.env.REACT_APP_FORMSPREE_URL);
-    const { register, handleSubmit, errors, reset } = useForm();
+    const { register, handleSubmit, errors } = useForm();
  
     if (serverState.succeeded) {
         console.log('success!');

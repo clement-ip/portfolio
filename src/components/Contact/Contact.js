@@ -12,7 +12,7 @@ function Contact(){
                     <p>If you would like to connect with me, my personal information is listed below. Alternatively, you can fill out the form and I will get back to you at my earliest convienience.</p>
                 </div>
 
-                <div className="row" data-aos="fade-in">
+                <div className="row" data-aos="fade-down">
                     <div className="col-sm pb-5 d-flex justify-content-between">
                         <div className="info">
                             <div className="email">
@@ -51,7 +51,7 @@ function Contact(){
                     </div>
                 </div>
 
-                <div className="row" data-aos="fade-in">
+                <div className="row" data-aos="fade-up">
                     <div className="col-sm">
                         <ContactForm/>
                     </div>

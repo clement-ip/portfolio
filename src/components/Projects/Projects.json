@@ -4,8 +4,8 @@
             "name": "Portfolio Website", 
             "description": "This very website you are viewing!\n(React, Node.js)",
             "image": "assets/img/projects/portfolio.png",
-            "github": "#",
-            "demo": "#"
+            "github": "https://github.com/clement-ip/portfolio",
+            "demo": "https://www.clementip.ca/"
         },
         
         {
