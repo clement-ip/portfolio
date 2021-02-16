@@ -27,7 +27,7 @@ function About(){
                             I also have a huge passion for <b>Web Development and Computational Mathematics</b> (hence my degree), but my interests also include fields such as <b>Hardware Design and Cybersecurity</b>.
                         </p>
                         <p>
-                            Outside of my main fields of study, I have over 10 years of leadership and teamwork experience in the non-profit sector, primarily with Scouts Canada. Additionally, if you've noticed my picture on the left, you will know that I have a love for the outdoors and have gone to many expedition and camps to see what nature can offer us! (Take a guess at where I went to!)
+                            Outside of my main fields of study, I have over 10 years of <b>leadership and teamwork</b> experience in the non-profit sector, primarily with Scouts Canada. Additionally, if you've noticed my picture on the left, you will know that I have a love for the outdoors and have gone to many expedition and camps to see what nature can offer us! (Take a guess at where I went to!)
                         </p>
                         <p>
                             I also really enjoy photography. Whether it's taking pictures of nice views, to doing photoshoots with people and/or events, to simple abstract photo taking, I like them all! While currently it is only a hobby of mine, maybe sometime down the road it might become something of a service for everyone so stay tuned!</p>

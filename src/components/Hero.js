@@ -28,11 +28,11 @@ function Hero(){
                     </div>
                 </div>
             </div>
-            <div className="scroll-down">
-                <Link activeClass="active" to="about" spy={true} smooth={true} duration={1000}>
+            <Link activeClass="active" to="about" spy={true} smooth={true} duration={1000}>
+                <div className="scroll-down">
                     <i className="icofont-simple-down"/>
-                </Link>
-            </div>
+                </div>
+            </Link>
         </section>
     );
 }
