@@ -13,14 +13,16 @@ function Skills(){
 
                 <div className="row skills-content">
 
-                    <div className="col-lg-6" data-aos="fade-up">
+                    <div className="col-lg-6 pb-5" data-aos="fade-up">
                         <h6>Programming Languages</h6>
                             {
                                 SkillsData.programmingLanguages.map((Skills, index) =>{
                                     const percentage = Skills.proficieny + '%';
                                     return(
                                         <div className="progress" key={index}>
-                                            <span className="skill">{Skills.lang} <i className="val">{percentage}</i></span>
+                                            <span className="skill">{Skills.lang} 
+                                                {/* <i className="val">{percentage}</i> */}
+                                            </span>
                                             <div className="progress-bar-wrap">
                                                 <div className="progress-bar" 
                                                     role="progressbar" 
@@ -43,7 +45,9 @@ function Skills(){
                                     const percentage = Skills.proficieny + '%';
                                     return(
                                         <div className="progress" key={index}>
-                                            <span className="skill">{Skills.name} <i className="val">{percentage}</i></span>
+                                            <span className="skill">{Skills.name} 
+                                                {/* <i className="val">{percentage}</i> */}
+                                            </span>
                                             <div className="progress-bar-wrap">
                                                 <div className="progress-bar" 
                                                     role="progressbar" 

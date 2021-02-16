@@ -1,5 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
+import { Link } from 'react-scroll';
 
 function Hero(){
     return(
@@ -26,12 +27,14 @@ function Hero(){
                         />    
                     </div>
                 </div>
-                {/* <p>A <span className="typed" data-typed-items="Software Developer, Mathematician, Photographer, Leader, Photographer"></span></p> */}
+            </div>
+            <div className="scroll-down">
+                <Link activeClass="active" to="about" spy={true} smooth={true} duration={1000}>
+                    <i className="icofont-simple-down"/>
+                </Link>
             </div>
         </section>
     );
 }
 
 export default Hero;
-
-// style="color: #fff; padding-bottom: 4px; letter-spacing: 1px; border-bottom: 3px solid #149ddd font-size: 26px; font-family: "Poppins", sans-serif;"

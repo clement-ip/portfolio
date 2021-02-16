@@ -27,15 +27,12 @@ function Header(props){
                         {/* <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
                         <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
                         <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a> */}
-                        {/* <a href="mailto:clement.ip96@gmail.com" className="email" target="_blank" rel="noopener noreferrer"> */}
                         <a href={process.env.REACT_APP_EMAIL_URL} className="email" target="_blank" rel="noopener noreferrer">
                             <i className="bx bx-envelope"/>
                         </a>
-                        {/* <a href="https://www.linkedin.com/in/clement-kc-ip" className="linkedin" target="_blank" rel="noopener noreferrer"> */}
                         <a href={process.env.REACT_APP_LINKEDIN_URL} className="linkedin" target="_blank" rel="noopener noreferrer">
                             <i className="bx bxl-linkedin"/>
                         </a>
-                        {/* <a href="https://github.com/clement-ip" className="github" target="_blank" rel="noopener noreferrer"> */}
                         <a href={process.env.REACT_APP_GITHUB_URL} className="github" target="_blank" rel="noopener noreferrer">
                             <i className="bx bxl-github"/>
                         </a>
@@ -58,7 +55,7 @@ function Header(props){
                         </li>
                         <li>
                             <Link onClick={menuState.toggle} activeClass="active" to="resume" spy={true} smooth={true} duration={1000}>
-                                <i className="bx bx-file-blank"/><span>Resume</span>
+                                <i className="bx bx-file"/><span>Resume</span>
                             </Link>
                         </li>
                         <li>
@@ -73,7 +70,7 @@ function Header(props){
                         </li>  */}
                         <li>
                             <Link onClick={menuState.toggle} activeClass="active" to="contact" spy={true} smooth={true} duration={1000}>
-                                <i className="bx bx-envelope"/><span>Contact</span>
+                                <i className='bx bx-message-square-edit'/><span>Contact</span>
                             </Link>
                         </li>
                     </ul>
