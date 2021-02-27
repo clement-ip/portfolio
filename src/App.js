@@ -14,6 +14,7 @@ import Resume from './components/Resume/Resume';
 // import Services from './components/Services';
 // import Skills from './components/Resume/Skills';
 // import Testimonials from './components/Testimonials';
+import AOS from 'aos';
 
 // import './App.css';
 
@@ -30,6 +31,12 @@ function App() {
     }
     return null;
   }
+
+  AOS.init({
+    duration: 1000,
+    easing: "ease-in-out-back",
+    once: true
+  });
 
   return (
     <div>

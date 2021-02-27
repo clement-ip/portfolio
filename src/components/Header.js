@@ -20,7 +20,6 @@ function Header(props){
                 <div className="profile">
                     <div onClick={scrollToTop} className="image-name" style={{cursor:"pointer"}}>
                         {/* <img src="assets/img/profile-img.jpg" alt="" className="img-fluid rounded-circle"/> */}
-                        {/* <h1 className="text-light"><a href="/">Clement Ip</a></h1> */}
                         <h1 className="text-light">Clement Ip</h1>
                     </div>
                     <div className="social-links mt-3 text-center">
@@ -44,22 +43,22 @@ function Header(props){
                 <nav className="nav-menu">
                     <ul>
                         <li>
-                            <Link onClick={menuState.toggle} activeClass="active" to="hero" spy={true} smooth={true} duration={1000}>
+                            <Link onClick={menuState.toggle} activeClass="active" to="hero" spy={true} smooth={true} duration={900}>
                                 <i className="bx bx-home"/><span>Home</span>
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={menuState.toggle} activeClass="active" to="about" spy={true} smooth={true} duration={1000}>
+                            <Link onClick={menuState.toggle} activeClass="active" to="about" spy={true} smooth={true} duration={900}>
                                 <i className="bx bx-user"/><span>About</span>
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={menuState.toggle} activeClass="active" to="resume" spy={true} smooth={true} duration={1000}>
+                            <Link onClick={menuState.toggle} activeClass="active" to="resume" spy={true} smooth={true} duration={900}>
                                 <i className="bx bx-file"/><span>Resume</span>
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={menuState.toggle} activeClass="active" to="projects" spy={true} smooth={true} duration={1000}>
+                            <Link onClick={menuState.toggle} activeClass="active" to="projects" spy={true} smooth={true} duration={900}>
                                 <i className="bx bx-book-content"/><span>Projects</span>
                             </Link>
                         </li>
@@ -69,9 +68,14 @@ function Header(props){
                             </Link>
                         </li>  */}
                         <li>
-                            <Link onClick={menuState.toggle} activeClass="active" to="contact" spy={true} smooth={true} duration={1000}>
+                            <Link onClick={menuState.toggle} activeClass="active" to="contact" spy={true} smooth={true} duration={900}>
                                 <i className='bx bx-message-square-edit'/><span>Contact</span>
                             </Link>
+                        </li>
+                        <li>
+                            <a href="#void">
+                                <i className='bx bx-news'/><span>Blog (Coming Soon!)</span>
+                            </a>
                         </li>
                     </ul>
                 </nav>

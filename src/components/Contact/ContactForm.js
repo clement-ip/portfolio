@@ -17,6 +17,7 @@ function ContactForm(){
 
     return(
         <form onSubmit={handleSubmit(sendToFormspree)} method="POST" className="email-form">
+            <p>Fields marked with * are required.</p>
             <div className="form-row">
                 <div className="form-group col-md-6">
                     <label htmlFor="name">Name*:</label>

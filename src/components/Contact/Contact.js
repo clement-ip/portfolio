@@ -16,7 +16,6 @@ function Contact(){
                     <div className="col-sm pb-5 d-flex justify-content-between">
                         <div className="info">
                             <div className="email">
-                                {/* <a href="mailto:clement.ip96@gmail.com" className="email" target="_blank" rel="noopener noreferrer"> */}
                                 <a href={process.env.REACT_APP_EMAIL_URL} className="email" target="_blank" rel="noopener noreferrer">
                                     <Icofont icon="envelope"/>
                                 </a>
@@ -28,7 +27,6 @@ function Contact(){
                     <div className="col-sm pb-5 d-flex justify-content-between">
                         <div className="info">                   
                             <div className="linkedin">
-                                {/* <a href="https://www.linkedin.com/in/clement-kc-ip" className="linkedin" target="_blank" rel="noopener noreferrer"> */}
                                 <a href={process.env.REACT_APP_LINKEDIN_URL} className="linkedin" target="_blank" rel="noopener noreferrer">
                                     <Icofont icon="linkedin"/>
                                 </a>
@@ -40,7 +38,6 @@ function Contact(){
                     <div className="col-sm pb-5 d-flex justify-content-between">
                         <div className="info">
                             <div className="github">
-                                {/* <a href="https://github.com/clement-ip" className="github" target="_blank" rel="noopener noreferrer"> */}
                                 <a href={process.env.REACT_APP_GITHUB_URL} className="github" target="_blank" rel="noopener noreferrer">
                                     <i className="bx bxl-github"/>
                                 </a>

@@ -25,9 +25,9 @@ function ScrollToTop(){
   }
 
   return (
-        <div className="back-to-top" onClick={scrollToTop} style={{height: 40, display: showScroll ? 'flex' : 'none'}}>
-            <i className="icofont-simple-up"/>
-        </div>
+    <div className="back-to-top" onClick={scrollToTop} style={{height: 40, display: showScroll ? 'flex' : 'none'}}>
+        <i className="icofont-simple-up"/>
+    </div>
   );
 }
 

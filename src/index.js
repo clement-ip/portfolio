@@ -4,8 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import 'boxicons';
 import 'jquery';
+import 'boxicons/css/boxicons.min.css';
+import 'venobox';
+import 'aos/dist/aos.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import 'bootstrap/dist/js/bootstrap';
