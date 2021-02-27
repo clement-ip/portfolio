@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.c14a2cc1.chunk.css",
-    "main.js": "/static/js/main.958feb41.chunk.js",
-    "main.js.map": "/static/js/main.958feb41.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.76107a84.js",
-    "runtime-main.js.map": "/static/js/runtime-main.76107a84.js.map",
-    "static/css/2.c8718ffa.chunk.css": "/static/css/2.c8718ffa.chunk.css",
-    "static/js/2.0b26d437.chunk.js": "/static/js/2.0b26d437.chunk.js",
-    "static/js/2.0b26d437.chunk.js.map": "/static/js/2.0b26d437.chunk.js.map",
-    "static/js/3.ae9297da.chunk.js": "/static/js/3.ae9297da.chunk.js",
-    "static/js/3.ae9297da.chunk.js.map": "/static/js/3.ae9297da.chunk.js.map",
+    "main.css": "/static/css/main.9bd05e67.chunk.css",
+    "main.js": "/static/js/main.6809e891.chunk.js",
+    "main.js.map": "/static/js/main.6809e891.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.062cf26c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.062cf26c.js.map",
+    "static/css/2.407f9bee.chunk.css": "/static/css/2.407f9bee.chunk.css",
+    "static/js/2.77d8c836.chunk.js": "/static/js/2.77d8c836.chunk.js",
+    "static/js/2.77d8c836.chunk.js.map": "/static/js/2.77d8c836.chunk.js.map",
+    "static/js/3.8c74395a.chunk.js": "/static/js/3.8c74395a.chunk.js",
+    "static/js/3.8c74395a.chunk.js.map": "/static/js/3.8c74395a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.c8718ffa.chunk.css.map": "/static/css/2.c8718ffa.chunk.css.map",
-    "static/css/main.c14a2cc1.chunk.css.map": "/static/css/main.c14a2cc1.chunk.css.map",
-    "static/js/2.0b26d437.chunk.js.LICENSE.txt": "/static/js/2.0b26d437.chunk.js.LICENSE.txt",
+    "static/css/2.407f9bee.chunk.css.map": "/static/css/2.407f9bee.chunk.css.map",
+    "static/css/main.9bd05e67.chunk.css.map": "/static/css/main.9bd05e67.chunk.css.map",
+    "static/js/2.77d8c836.chunk.js.LICENSE.txt": "/static/js/2.77d8c836.chunk.js.LICENSE.txt",
+    "static/media/boxicons.min.css": "/static/media/boxicons.cbd149c5.ttf",
     "static/media/index.css": "/static/media/hero-bg.ad4cf389.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.76107a84.js",
-    "static/css/2.c8718ffa.chunk.css",
-    "static/js/2.0b26d437.chunk.js",
-    "static/css/main.c14a2cc1.chunk.css",
-    "static/js/main.958feb41.chunk.js"
+    "static/js/runtime-main.062cf26c.js",
+    "static/css/2.407f9bee.chunk.css",
+    "static/js/2.77d8c836.chunk.js",
+    "static/css/main.9bd05e67.chunk.css",
+    "static/js/main.6809e891.chunk.js"
   ]
 }
