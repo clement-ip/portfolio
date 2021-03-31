@@ -1,9 +1,9 @@
 {
     "education": [
         {
+            "institution": "Simon Fraser University",
             "degree": "Bachelor of Science \n Mathematics and Computing Science Joint Major", 
-            "duration": "September 2014 - December 2020",
-            "institution": "Simon Fraser University"
+            "duration": "September 2014 - December 2020"
         }
     ],
     

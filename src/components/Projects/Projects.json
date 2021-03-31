@@ -2,7 +2,7 @@
     "items": [
         {
             "name": "Portfolio Website", 
-            "description": "This very website you are viewing!\n(React, Node.js)",
+            "description": "This very website you are viewing! \n [React, Node.js, JavaScript, HTML/CSS, Bootstrap]",
             "image": "assets/img/projects/portfolio.png",
             "github": "https://github.com/clement-ip/portfolio",
             "demo": "https://www.clementip.ca/"
@@ -10,10 +10,18 @@
         
         {
             "name": "Data Science Project", 
-            "description": "Investigating Airport Data in Canadian Airports in the year preceding (and during) the COVID-19 Pandemic.\n(Python)",
+            "description": "Analysis on Air Travel in Canada during COVID-19 \n [Python, NumPy, Pandas, Matplotlib, Seaborn, scikit-learn]",
             "image": "assets/img/projects/canadaAirports.png",
             "github": "https://github.com/clement-ip/covid-airport-travel",
             "demo": "https://drive.google.com/file/d/1rCO0keKW_tGBhPDdJmE-Tg90WxzOm-yV/view?usp=sharing"
+        },
+
+        {
+            "name": "Timinar", 
+            "description": "A Web Application where users can host events and other users can join those events. \n [MERN Stack (MongoDB, Express, React, Node.js), JavaScript, HTML/CSS, Bootstrap, Bulma] \n (Link is to a video demo.)",
+            "image": "assets/img/projects/timinar.png",
+            "github": "https://github.com/clement-ip/event-planner",
+            "demo": "https://youtu.be/5wFm0-g5cg8"
         }
     ]
 }

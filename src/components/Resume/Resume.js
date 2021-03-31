@@ -5,9 +5,9 @@ import Skills from "./Skills";
 
 function Resume(){
 
-    function NewlineTextTitle(props) {
+    function NewlineTextDegree(props) {
         const text = props.text;
-        const newText = text.split('\n').map(str => <h4 key={str}>{str}</h4>);
+        const newText = text.split('\n').map(str => <h6 key={str}><b><em>{str}</em></b></h6>);
         return newText;
     }
 
@@ -29,12 +29,13 @@ function Resume(){
                             ResumeData.education.map((Education) =>{
                                 return(
                                     <div className="resume-item" key={Education.degree}>
-                                        <NewlineTextTitle text={Education.degree}/>
-                                        <h6>
+                                        <h4>{Education.institution}</h4>
+                                        <NewlineTextDegree text={Education.degree}/>
+                                        {/* <h6>
                                             <b>
-                                                <em>{Education.institution}</em>
+                                                <em>{Education.degree}</em>
                                             </b>
-                                        </h6>
+                                        </h6> */}
                                         <h5>{Education.duration}</h5>
                                     </div>
                                 );
