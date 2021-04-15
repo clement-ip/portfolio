@@ -16,7 +16,7 @@ import Resume from './components/Resume/Resume';
 // import Testimonials from './components/Testimonials';
 import AOS from 'aos';
 
-// import './App.css';
+import './App.css';
 
 function App() {
   const [menuActive, setMenuState] = useState(false);

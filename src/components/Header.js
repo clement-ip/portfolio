@@ -54,7 +54,7 @@ function Header(props){
                         </li>
                         <li>
                             <Link onClick={menuState.toggle} activeClass="active" to="resume" spy={true} smooth={true} duration={900}>
-                                <i className="bx bx-file"/><span>Resume</span>
+                                <i className="bx bx-file"/><span>Resumé</span>
                             </Link>
                         </li>
                         <li>
