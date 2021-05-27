@@ -81,7 +81,6 @@ function ContactForm(){
                 {errors._subject && <div className="validate">This field is required.</div> }
             </div>
             <div className="text-center">
-                {/* <button onClick={handleClick} type="submit">Send Message</button> */}
                 <button type="submit">Send Message</button>
             </div>
         </form>

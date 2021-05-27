@@ -22,6 +22,14 @@
             "image": "assets/img/projects/timinar.png",
             "github": "https://github.com/clement-ip/event-planner",
             "demo": "https://youtu.be/5wFm0-g5cg8"
+        }, 
+
+        {
+            "name": "Expense Tracker", 
+            "description": "A Web Application where users can track both their income and expenses. \n [MERN Stack (MongoDB, Express, React, Node.js), JavaScript, HTML/CSS, Bootstrap]",
+            "image": "assets/img/projects/expense-tracker.png",
+            "github": "https://github.com/clement-ip/expense-tracker",
+            "demo": "https://incomeexpensetracker.herokuapp.com"
         }
     ]
 }

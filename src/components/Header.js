@@ -35,6 +35,9 @@ function Header(props){
                         <a href={process.env.REACT_APP_GITHUB_URL} className="github" target="_blank" rel="noopener noreferrer">
                             <i className="bx bxl-github"/>
                         </a>
+                        <a href={process.env.REACT_APP_INSTAGRAM_URL} className="instagram" target="_blank" rel="noopener noreferrer">
+                            <i className="bx bxl-instagram"/>
+                        </a>
                         {/* <a href="/" className="flickr" target="_blank" rel="noopener noreferrer">
                             <i className="bx bxl-flickr"/>
                         </a> */}
