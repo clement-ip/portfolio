@@ -23,6 +23,7 @@ function App() {
 
   const toggle = () => {
     setMenuState(!menuActive);
+    checkMobileMenu(menuActive);
   };
 
   const checkToggle = () => {
@@ -32,6 +33,15 @@ function App() {
     return null;
   }
 
+  function checkMobileMenu(menuActive){
+    if(menuActive === false){
+      document.body.classList.add('mobile-nav-active');
+    }
+    else{
+      document.body.classList.remove('mobile-nav-active');
+    }
+  }
+
   AOS.init({
     duration: 1000,
     easing: "ease-in-out-back",
@@ -39,27 +49,26 @@ function App() {
   });
 
   return (
-    <div>
+    // <div className={`${menuActive ? "mobile-nav-active" : ""}`}>
+    <div id="main">
       <button type="button" onClick={toggle} className="mobile-nav-toggle d-xl-none">
           <i className={`${menuActive ? "icofont-close" : "icofont-navigation-menu"}`}/>
       </button>
-      <div onClick={checkToggle} className={`${menuActive ? "mobile-nav-active" : ""}`}>
+      {/* <div> */}
         <Header toggle={checkToggle}/>
         <Hero/>
-        <div id="main">
-          <About/>
-          {/* <Facts/> */}
-          {/* <Skills/> */}
-          <Resume/>
-          {/* <Skills/> */}
-          <Projects/>
-          {/* <Services/> */}
-          {/* <Testimonials/> */}
-          <Contact/>
-        </div>
+        <About/>
+        {/* <Facts/> */}
+        {/* <Skills/> */}
+        <Resume/>
+        {/* <Skills/> */}
+        <Projects/>
+        {/* <Services/> */}
+        {/* <Testimonials/> */}
+        <Contact/>
         <Footer/>
         <BackToTop/>
-      </div>
+      {/* </div> */}
     </div>
   );
 }
