@@ -50,13 +50,13 @@ function App() {
 
   return (
     // <div className={`${menuActive ? "mobile-nav-active" : ""}`}>
-    <div id="main">
+    <div>
       <button type="button" onClick={toggle} className="mobile-nav-toggle d-xl-none">
           <i className={`${menuActive ? "icofont-close" : "icofont-navigation-menu"}`}/>
       </button>
-      {/* <div> */}
-        <Header toggle={checkToggle}/>
-        <Hero/>
+      <Header toggle={checkToggle}/>
+      <Hero/>
+      <div id="main">
         <About/>
         {/* <Facts/> */}
         {/* <Skills/> */}
@@ -68,7 +68,7 @@ function App() {
         <Contact/>
         <Footer/>
         <BackToTop/>
-      {/* </div> */}
+      </div>
     </div>
   );
 }
