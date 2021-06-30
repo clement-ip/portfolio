@@ -63,6 +63,11 @@
         },
 
         {
+            "name": "Nginx",
+            "proficieny":"75"
+        },
+
+        {
             "name": "GDB",
             "proficieny":"65"
         },
@@ -95,11 +100,6 @@
         {
             "name": "Microsoft Powerpoint",
             "proficieny":"80"
-        },
-
-        {
-            "name": "Photoshop",
-            "proficieny":"75"
         }
     ]
 }

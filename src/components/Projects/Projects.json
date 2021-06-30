@@ -18,7 +18,7 @@
 
         {
             "name": "Timinar", 
-            "description": "A Web Application where users can host events and other users can join those events. \n [MERN Stack (MongoDB, Express, React, Node.js), JavaScript, HTML/CSS, Bootstrap, Bulma] \n (Link is to a video demo.)",
+            "description": "Providing non-profits with a centralized hub for organizing and sharing events to members. \n [MERN Stack (MongoDB, Express, React, Node.js), JavaScript, HTML/CSS, Bootstrap, Bulma] \n (Link is to a video demo.)",
             "image": "assets/img/projects/timinar.png",
             "github": "https://github.com/clement-ip/event-planner",
             "demo": "https://youtu.be/5wFm0-g5cg8"
