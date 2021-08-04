@@ -75,11 +75,11 @@ function Header(props){
                                 <i className='bx bx-message-square-edit'/><span>Contact</span>
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href="#void">
                                 <i className='bx bx-news'/><span>Blog (Coming Soon!)</span>
                             </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </nav>
             </div>
