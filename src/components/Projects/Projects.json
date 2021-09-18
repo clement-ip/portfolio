@@ -30,6 +30,14 @@
             "image": "assets/img/projects/expense-tracker.png",
             "github": "https://github.com/clement-ip/expense-tracker",
             "demo": "https://incomeexpensetracker.herokuapp.com"
+        },
+
+        {
+            "name": "69th Scouts Website", 
+            "description": "Custom website for the 69th Knights of Kensington Scout Group. \n [React, Node.js, JavaScript, HTML/CSS, Bootstrap]",
+            "image": "assets/img/projects/scout-website.png",
+            "github": "https://github.com/clement-ip/scout-group-site",
+            "demo": "https://www.69scouts.org"
         }
     ]
 }
