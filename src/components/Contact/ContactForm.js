@@ -72,7 +72,7 @@ function ContactForm(){
                 <textarea 
                     className="form-control"
                     name="message"
-                    rows="10"
+                    rows="15"
                     placeholder="Write away!"
                     ref={register({
                         required: true
