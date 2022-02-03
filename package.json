@@ -4,29 +4,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@formspree/react": "^2.2.3",
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.6.3",
+    "@formspree/react": "^2.2.4",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
     "aos": "^2.3.4",
-    "bootstrap": "^4.6.0",
-    "boxicons": "^2.0.7",
-    "dotenv": "^8.2.0",
+    "bootstrap": "^4.6.1",
+    "boxicons": "^2.1.1",
+    "dotenv": "^16.0.0",
     "group": "^1.0.2",
-    "jquery": "^3.5.1",
+    "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-hook-form": "^6.15.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^6.15.8",
     "react-icofont": "^1.0.19",
     "react-owl-carousel": "^2.3.3",
-    "react-scripts": "2.1.8",
-    "react-scroll": "^1.8.1",
-    "react-transition": "^0.0.1",
-    "react-transition-group": "^4.4.1",
-    "typewriter-effect": "^2.17.0",
-    "venobox": "^1.9.2",
-    "web-vitals": "^1.1.0"
+    "react-scripts": "^4.0.3",
+    "react-scroll": "^1.8.4",
+    "react-transition": "^1.0.3",
+    "react-transition-group": "^4.4.2",
+    "typewriter-effect": "^2.18.2",
+    "venobox": "^2.0.4",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -54,6 +54,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.2.3"
   }
 }
