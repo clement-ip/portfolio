@@ -1,19 +1,27 @@
 {
-  "main.css": "/static/css/main.8794ed36.chunk.css",
-  "main.js": "/static/js/main.a4e77421.chunk.js",
-  "main.js.map": "/static/js/main.a4e77421.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.f47575d0.js",
-  "runtime~main.js.map": "/static/js/runtime~main.f47575d0.js.map",
-  "static/css/2.e97aa100.chunk.css": "/static/css/2.e97aa100.chunk.css",
-  "static/js/2.af8c9316.chunk.js": "/static/js/2.af8c9316.chunk.js",
-  "static/js/2.af8c9316.chunk.js.map": "/static/js/2.af8c9316.chunk.js.map",
-  "static/js/3.67a8c9d2.chunk.js": "/static/js/3.67a8c9d2.chunk.js",
-  "static/js/3.67a8c9d2.chunk.js.map": "/static/js/3.67a8c9d2.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.a952c84da4928bebb82d5bbff00681a1.js": "/precache-manifest.a952c84da4928bebb82d5bbff00681a1.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/2.e97aa100.chunk.css.map": "/static/css/2.e97aa100.chunk.css.map",
-  "static/css/main.8794ed36.chunk.css.map": "/static/css/main.8794ed36.chunk.css.map",
-  "static/media/boxicons.min.css": "/static/media/boxicons.dad92ba1.svg",
-  "static/media/index.css": "/static/media/hero-bg.3dca2084.jpg"
+  "files": {
+    "main.css": "/static/css/main.68ab1563.chunk.css",
+    "main.js": "/static/js/main.1ede8e2d.chunk.js",
+    "main.js.map": "/static/js/main.1ede8e2d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.22bbb316.js",
+    "runtime-main.js.map": "/static/js/runtime-main.22bbb316.js.map",
+    "static/css/2.59aab8a7.chunk.css": "/static/css/2.59aab8a7.chunk.css",
+    "static/js/2.d2a94e96.chunk.js": "/static/js/2.d2a94e96.chunk.js",
+    "static/js/2.d2a94e96.chunk.js.map": "/static/js/2.d2a94e96.chunk.js.map",
+    "static/js/3.30da92e0.chunk.js": "/static/js/3.30da92e0.chunk.js",
+    "static/js/3.30da92e0.chunk.js.map": "/static/js/3.30da92e0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.59aab8a7.chunk.css.map": "/static/css/2.59aab8a7.chunk.css.map",
+    "static/css/main.68ab1563.chunk.css.map": "/static/css/main.68ab1563.chunk.css.map",
+    "static/js/2.d2a94e96.chunk.js.LICENSE.txt": "/static/js/2.d2a94e96.chunk.js.LICENSE.txt",
+    "static/media/boxicons.min.css": "/static/media/boxicons.dfc882ec.eot",
+    "static/media/index.css": "/static/media/hero-bg.ad4cf389.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22bbb316.js",
+    "static/css/2.59aab8a7.chunk.css",
+    "static/js/2.d2a94e96.chunk.js",
+    "static/css/main.68ab1563.chunk.css",
+    "static/js/main.1ede8e2d.chunk.js"
+  ]
 }
