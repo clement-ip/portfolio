@@ -5,9 +5,10 @@ import Skills from "./Skills";
 
 function Resume(){
 
-    function NewlineTextDegree(props) {
+    function NewlineTextSplit(props) {
         const text = props.text;
-        const newText = text.split('\n').map(str => <h6 key={str}><b><em>{str}</em></b></h6>);
+        const newText = text.split('\n').map(str => <div key={str}>{str}</div>);
+        // const newText = text.split('\n');
         return newText;
     }
 
@@ -29,14 +30,29 @@ function Resume(){
                             ResumeData.education.map((Education) =>{
                                 return(
                                     <div className="resume-item" key={Education.degree}>
-                                        <h4>{Education.institution}</h4>
-                                        <NewlineTextDegree text={Education.degree}/>
-                                        {/* <h6>
+                                        <h4><NewlineTextSplit text={Education.degree}/></h4>
+                                        <h6>
                                             <b>
-                                                <em>{Education.degree}</em>
+                                                <em>{Education.institution}</em>
                                             </b>
-                                        </h6> */}
+                                        </h6>
                                         <h5>{Education.duration}</h5>
+                                    </div>
+                                );
+                            })
+                        }
+                        <h3 className="resume-title">Certifications</h3>
+                        {
+                            ResumeData.certifications.map((Certification) =>{
+                                return(
+                                    <div className="resume-item" key={Certification.title}>
+                                        <h4><NewlineTextSplit text={Certification.title}/></h4>
+                                        <h6>
+                                            <b>
+                                                <em>{Certification.issueOrg}</em>
+                                            </b>
+                                        </h6>
+                                        <h5>{Certification.duration}</h5>
                                     </div>
                                 );
                             })

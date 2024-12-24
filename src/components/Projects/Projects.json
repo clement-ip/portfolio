@@ -17,12 +17,12 @@
         },
 
         {
-            "name": "Timinar", 
-            "description": "Providing non-profits with a hub for organizing and sharing events to members. \n [MERN Stack (MongoDB, Express, React, Node.js), JavaScript, HTML/CSS, Bootstrap, Bulma] \n (Link is to a video demo.)",
-            "image": "assets/img/projects/timinar.png",
-            "github": "https://github.com/clement-ip/event-planner",
-            "demo": "https://youtu.be/5wFm0-g5cg8"
-        }, 
+            "name": "69th Scouts Website", 
+            "description": "Custom website for the 69th Knights of Kensington Scout Group. \n [React, Node.js, JavaScript, HTML/CSS, Bootstrap]",
+            "image": "assets/img/projects/scout-website.png",
+            "github": "https://github.com/clement-ip/scout-group-site",
+            "demo": "https://www.69scouts.org"
+        },
 
         {
             "name": "Expense Tracker", 
@@ -33,11 +33,11 @@
         },
 
         {
-            "name": "69th Scouts Website", 
-            "description": "Custom website for the 69th Knights of Kensington Scout Group. \n [React, Node.js, JavaScript, HTML/CSS, Bootstrap]",
-            "image": "assets/img/projects/scout-website.png",
-            "github": "https://github.com/clement-ip/scout-group-site",
-            "demo": "https://www.69scouts.org"
+            "name": "Timinar", 
+            "description": "Providing non-profits with a hub for organizing and sharing events to members. \n [MERN Stack (MongoDB, Express, React, Node.js), JavaScript, HTML/CSS, Bootstrap, Bulma] \n (Link is to a video demo.)",
+            "image": "assets/img/projects/timinar.png",
+            "github": "https://github.com/clement-ip/event-planner",
+            "demo": "https://youtu.be/5wFm0-g5cg8"
         }
     ]
 }

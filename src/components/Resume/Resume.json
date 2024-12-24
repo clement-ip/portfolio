@@ -1,21 +1,46 @@
 {
     "education": [
         {
-            "institution": "Simon Fraser University",
             "degree": "Bachelor of Science \n Joint Major Computer Science and Mathematics", 
+            "institution": "Simon Fraser University",
             "duration": "September 2014 - December 2020"
+        }
+    ],
+
+    "certifications": [
+        {
+            "title": "Google IT Support Professional Certificate", 
+            "issueOrg": "Google Career Certificates",
+            "duration": "March 2023"
+        },
+
+        {
+            "title": "Google Data Analytics Professional Certificate", 
+            "issueOrg": "Google Career Certificates",
+            "duration": "January 2023"
         }
     ],
     
     "workExperience": [
         {
+            "position": "Guest Services Representative", 
+            "duration": "September 2021 - Present",
+            "company": "Arc'teryx Equipment",
+            "description": [
+                "Responding to over 50 calls, 20 chats, and 30 forms daily through Salesforce Service Cloud and the Five9 Phone System, while consistently delivering outstanding customer service.",
+                "Providing guests with timely updates on their online orders and the latest product offerings, ensuring alignment with service level agreements.",
+                "Contributing to team success by supporting various initiatives, including training new hires, setting up laptops, and efficiently resolving system issues, and providing documentation on fixes."
+            ]
+        },
+
+        {
             "position": "Order Entry Clerk", 
             "duration": "March 2015 - December 2017",
             "company": "Freshpoint Vancouver",
             "description": [
-                "Processed more than 200 delivery invoices per day from salesmen and entered them into an IBM System i (AS/400).",
-                "Maintained order accuracy by verifying changes on order forms and updating copies onto the system in a timely manner.",
-                "Onboarded new employees with the necessary training when supervisor is unavailable or out-of-office."
+                "Processed over 200 delivery invoices daily using IBM System i (AS/400), ensuring high accuracy and efficiency in data entry.",
+                "Ensured order accuracy by promptly verifying and updating changes on order forms within the system.",
+                "Supported the onboarding process for new employees by delivering essential training in the supervisor's absence."
             ]
         },
 
@@ -24,9 +49,9 @@
             "duration": "December 2013 - January 2014",
             "company": "IT Electronics, Burnaby, BC",
             "description": [
-                "Conducted in-shop repairs daily for various home appliances (ie. TVs, microwaves, audio systems).",
-                "Performed 3 in-home appliance installation requests daily in conjunction with the Technician-in-Charge.",
-                "Communicated with cross-functional teams to ensure company supply chain was running optimally to maximize customer experience and repair turnaround."
+                "Supported the onboarding process for new employees by delivering essential training in the supervisor's absence.",
+                "Assisted with an average of 3 in-home appliance installations daily alongside the Technician-in-Charge.",
+                "Collaborated with cross-functional teams to optimize the supply chain, enhancing customer experience and reducing repair turnaround time."
             ]
         },
 
@@ -35,9 +60,9 @@
             "duration": "March 2013 - April 2013",
             "company": "Lee's Electronics, Vancouver, BC",
             "description": [
-                "Maintained an 90% supply of various components on store shelves.",
-                "Provided customers with advice on their projects and responded to questions they may have regarding their schematics.",
-                "Worked with customers to find the corresponding components for their projects."
+                "Maintained a 90% inventory availability of various electronic components on store shelves to ensure product availability.",
+                "Advised customers on their projects and addressed inquiries related to schematics, enhancing their overall shopping experience.",
+                "Supported customers in identifying and sourcing the appropriate components for their projects, ensuring successful outcomes."
             ]
         }
     ],
@@ -48,20 +73,21 @@
             "duration": "September 2019 - Present",
             "location": "Scouts Canada - 69th Knights of Kensington Scout Group",
             "description": [
-                "Oversees the day-to-day operations for this non-profit with up to 40 volunteers and members of varying ages.",
-                "Providing leadership to develop and ensure safe, high-quality programs and activities such as camps and outings in alignment with the Scouting Movement.",
-                "Establish and maintain positive relationships with parents, our Partner/Sponsor, and the community at large." 
+                "Leading weekly operations for a Scout group, managing event planning and grant applications while supporting a diverse team of up to 40 volunteers and youth members.",
+                "Spearheading management of Google Workspace accounts for Scouters and Youth, facilitating seamless communication and collaboration among all parties.",
+                "Providing strategic leadership to create and implement safe, engaging programs and activities, including camps and outings, aligned with the values of the Scouting Movement.",
+                "Cultivating strong relationships with parents, community partners, and sponsors, building a supportive network that advances the goals of Scouting and the local community."
             ]
         },
 
         {
-            "position": "Teaching Assistant", 
+            "position": "Teaching Assistant - Department of Bands", 
             "duration": "September 2012 - June 2014",
             "location": "Eric Hamber Secondary School - Department of Bands",
             "description": [
-                "Coordinated with Nicholas Francis (Director of Bands) to complete various tasks such as completing paperwork and organizing sheet music to complete a full Music Score.",
-                "Ensured instruments in the school inventory are put away properly and made minor repairs if anything was damaged.", 
-                "Conducted workshops with the Clarinet Section to work through sections of a music piece, as well as help them improve their playing skills." 
+                "Collaborated with Nicholas Francis (Director of Bands) to optimize concert preparation by managing paperwork and organizing sheet music, ensuring seamless execution of full music scores.",
+                "Oversaw the proper storage of instruments in the school inventory and executed minor repairs to maintain equipment functionality.",
+                "Facilitated dynamic workshops for the Clarinet Section, focusing on musical phrasing and technical skill development, enhancing overall ensemble performance."
             ]
         }
     ]

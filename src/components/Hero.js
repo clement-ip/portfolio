@@ -14,11 +14,11 @@ function Hero(){
                     <div className="typewriter">
                         <Typewriter
                                 options={{
-                                    strings: ['Software Developer', 
-                                    'Mathematician', 
-                                    'Photographer', 
+                                    strings: ["IT Support Specialist",
+                                    "Data Analyst",     
+                                    "Photographer", 
                                     'Outdoor Enthusiast', 
-                                    'Learner'],
+                                    "Scouter"],
                                     autoStart: true,
                                     loop: true,
                                     delay: 150,
