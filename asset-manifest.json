@@ -1,27 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.68ab1563.chunk.css",
-    "main.js": "/static/js/main.1ede8e2d.chunk.js",
-    "main.js.map": "/static/js/main.1ede8e2d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.22bbb316.js",
-    "runtime-main.js.map": "/static/js/runtime-main.22bbb316.js.map",
-    "static/css/2.59aab8a7.chunk.css": "/static/css/2.59aab8a7.chunk.css",
-    "static/js/2.d2a94e96.chunk.js": "/static/js/2.d2a94e96.chunk.js",
-    "static/js/2.d2a94e96.chunk.js.map": "/static/js/2.d2a94e96.chunk.js.map",
-    "static/js/3.30da92e0.chunk.js": "/static/js/3.30da92e0.chunk.js",
-    "static/js/3.30da92e0.chunk.js.map": "/static/js/3.30da92e0.chunk.js.map",
+    "main.css": "/static/css/main.1316c1d6.css",
+    "main.js": "/static/js/main.01f2094f.js",
+    "static/js/453.9adf784c.chunk.js": "/static/js/453.9adf784c.chunk.js",
+    "static/media/boxicons.svg": "/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/boxicons.eot": "/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/hero-bg.jpg": "/static/media/hero-bg.ad4cf389703a302add67.jpg",
+    "static/media/boxicons.woff2": "/static/media/boxicons.df635aaf04cd75132f62.woff2",
     "index.html": "/index.html",
-    "static/css/2.59aab8a7.chunk.css.map": "/static/css/2.59aab8a7.chunk.css.map",
-    "static/css/main.68ab1563.chunk.css.map": "/static/css/main.68ab1563.chunk.css.map",
-    "static/js/2.d2a94e96.chunk.js.LICENSE.txt": "/static/js/2.d2a94e96.chunk.js.LICENSE.txt",
-    "static/media/boxicons.min.css": "/static/media/boxicons.dfc882ec.eot",
-    "static/media/index.css": "/static/media/hero-bg.ad4cf389.jpg"
+    "main.1316c1d6.css.map": "/static/css/main.1316c1d6.css.map",
+    "main.01f2094f.js.map": "/static/js/main.01f2094f.js.map",
+    "453.9adf784c.chunk.js.map": "/static/js/453.9adf784c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.22bbb316.js",
-    "static/css/2.59aab8a7.chunk.css",
-    "static/js/2.d2a94e96.chunk.js",
-    "static/css/main.68ab1563.chunk.css",
-    "static/js/main.1ede8e2d.chunk.js"
+    "static/css/main.1316c1d6.css",
+    "static/js/main.01f2094f.js"
   ]
 }
