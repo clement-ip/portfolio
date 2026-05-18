@@ -15,7 +15,7 @@ function Projects(){
 
                 <div className="section-title">
                 <h2>Projects</h2>
-                <p>Here's a snapshot of what I have worked on, or in the middle of working on!</p>
+                <p>A snapshot of what I have worked or in the middle of working on!</p>
                 </div>
 
                 {/* <div className="row" data-aos="fade-up">
