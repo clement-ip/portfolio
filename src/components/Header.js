@@ -45,11 +45,11 @@ function Header(props){
                 </div>
                 <nav className="nav-menu">
                     <ul>
-                        <li>
+                        {/* <li>
                             <Link onClick={menuState.toggle} activeClass="active" to="hero" spy={true} smooth={true} duration={900}>
                                 <i className="bx bx-home"/><span>Home</span>
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link onClick={menuState.toggle} activeClass="active" to="about" spy={true} smooth={true} duration={900}>
                                 <i className="bx bx-user"/><span>About</span>
